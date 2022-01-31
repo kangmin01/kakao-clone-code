@@ -1,3 +1,3 @@
 # Kakao clone code
 
-HTML, CSS basics
+HTML, CSS basics of the basics.
