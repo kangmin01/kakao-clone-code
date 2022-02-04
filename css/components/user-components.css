@@ -53,3 +53,7 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__text span {
+  color: rgba(240, 68, 68, 0.637);
+}
