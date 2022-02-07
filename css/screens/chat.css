@@ -3,6 +3,11 @@
   height: 1000vh;
 }
 
+#chat-screen .status-bar {
+  background-color: #abc1d1;
+  z-index: 2;
+}
+
 #chat-screen .alt-header {
   position: fixed;
   width: 100%;
