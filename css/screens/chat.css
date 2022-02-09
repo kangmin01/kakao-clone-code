@@ -14,7 +14,7 @@
   box-sizing: border-box;
   top: 0px;
   background-color: #abc1d1;
-  z-index: index 1;
+  z-index: 1;
 }
 
 @keyframes fadeIn {
@@ -185,4 +185,8 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+.message-row .freind-avatar {
+  object-fit: cover;
 }

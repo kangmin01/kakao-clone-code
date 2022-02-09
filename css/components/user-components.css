@@ -49,11 +49,20 @@
   align-items: flex-end;
 }
 
+.user-component__column:last-child div {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column:last-child span {
+  margin-right: 5px;
+}
+
 .user-component__time {
   margin-bottom: 10px;
   display: block;
 }
 
 .user-component__text span {
-  color: rgba(240, 68, 68, 0.637);
+  color: rgba(255, 7, 7, 0.602);
 }
