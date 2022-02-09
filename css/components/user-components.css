@@ -30,6 +30,7 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
+  border-radius: 40%;
 }
 
 .user-component__avatar--sm {

@@ -17,6 +17,10 @@
   z-index: 1;
 }
 
+.main-screen .user-component {
+  margin-bottom: 35px;
+}
+
 @keyframes fadeIn {
   from {
     transform: translateY(30px);
