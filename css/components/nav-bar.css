@@ -21,8 +21,12 @@
   0% {
     transform: none;
   }
-  50% {
-    transform: translateY(-3px) rotateY(360deg);
+  25% {
+    transform: rotateZ(20deg);
+  }
+
+  75% {
+    transform: rotateZ(-20deg);
   }
   100% {
     transform: none;
@@ -33,7 +37,7 @@
   position: absolute;
   left: 15px;
   bottom: 15px;
-  animation: notificationAnimation 2s ease-in-out infinite;
+  animation: notificationAnimation 0.5s ease-in-out infinite;
 }
 
 .nav__dot {

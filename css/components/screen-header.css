@@ -45,5 +45,23 @@
 }
 
 .screen-header__icons .fa-cog:hover {
-  animation: rotateCog 2s linear infinite;
+  animation: rotateCog 3s linear infinite;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.screen-header__icons i:hover {
+  will-change: transform;
+  animation: scaleUp 0.1s linear forwards;
+}
+
+.screen-header__icons i {
+  cursor: pointer;
 }

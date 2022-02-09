@@ -27,6 +27,11 @@
 
 .open-chat__header span {
   opacity: 0.6;
+  cursor: pointer;
+}
+
+.open-chat__header span:hover {
+  opacity: 1;
 }
 
 .open-post {
