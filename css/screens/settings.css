@@ -12,6 +12,19 @@
   opacity: 0.8;
 }
 
+.settings__setting-column:first-child {
+  display: flex;
+  align-items: center;
+}
+
 .settings__setting-column:last-child {
   opacity: 0.7;
+}
+
+.settings__setting:nth-child(3) {
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.settings__setting:nth-child(11) {
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
 }
