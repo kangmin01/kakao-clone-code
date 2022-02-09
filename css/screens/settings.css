@@ -5,11 +5,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .settings__setting i {
   margin-right: 15px;
   opacity: 0.8;
+}
+
+.settings__setting:hover {
+  background-color: rgba(0, 0, 0, 0.027);
 }
 
 .settings__setting-column:first-child {
